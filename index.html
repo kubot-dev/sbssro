@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SBS – Súkromná bezpečnostná služba</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#uvod" class="nav__logo">
+        <svg class="nav__shield" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L3 6v6c0 5.25 3.75 10.15 9 11.35C17.25 22.15 21 17.25 21 12V6L12 2Z" fill="#e63229" />
+          <path d="M9 12l2 2 4-4" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>SBS</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="#uvod">Úvod</a>
+        <a href="#onas">O nás</a>
+        <a href="#sluzby">Služby</a>
+        <a href="#galeria">Galéria</a>
+        <a href="#referencie">Referencie</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+
+      <div class="nav__right">
+        <a href="tel:+421900000000" class="nav__phone">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2Z" fill="currentColor"/></svg>
+          +421 900 000 000
+        </a>
+        <a href="#kontakt" class="btn btn--red">Kontaktujte nás</a>
+      </div>
+
+      <button class="nav__burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="uvod">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <span class="hero__badge">● Licencovaná bezpečnostná služba</span>
+        <h1>VAŠA BEZPEČNOSŤ JE<br /><span class="red">NAŠA PRIORITA</span></h1>
+        <p>Poskytujeme elitné bezpečnostné služby, ochranu majetku a osôb s maximálnou diskrétnosťou a profesionalitou už od roku 2008.</p>
+        <div class="hero__actions">
+          <a href="#sluzby" class="btn btn--outline">Naše služby ›</a>
+          <a href="#kontakt" class="btn btn--red">Kontaktujte nás</a>
+        </div>
+      </div>
+      <div class="hero__image">
+        <img src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?w=700&q=80" alt="Bezpečnostný pracovník" />
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stats__item">
+        <span class="stats__num">15<span class="red">+</span></span>
+        <span class="stats__label">Rokov skúsenosti</span>
+      </div>
+      <div class="stats__item">
+        <span class="stats__num">500<span class="red">+</span></span>
+        <span class="stats__label">Chránených objektov</span>
+      </div>
+      <div class="stats__item">
+        <span class="stats__num">24<span class="red">/</span>7</span>
+        <span class="stats__label">Dostupnosť</span>
+      </div>
+      <div class="stats__item">
+        <span class="stats__num">100<span class="red">%</span></span>
+        <span class="stats__label">Spokojnosť klientov</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- O NÁS -->
+  <section class="about" id="onas">
+    <div class="container about__inner">
+      <div class="about__text">
+        <h2>ELITNÁ OCHRANA PRE<br /><span class="red">VÁŠ POKOJ</span></h2>
+        <p>Sme licencovaná súkromná bezpečnostná služba s celoslovenskou pôsobnosťou. Naším poslaním je chrániť to, čo vám najviac záleží – váš život, rodinu, majetok a podnikanie.</p>
+        <p>Zakladáme si na prísnom výbere zamestnancov, pravidelnom výcviku a využívaní najmodernejších technológií. Náš tím tvoria bývalí príslušníci ozbrojených pozíc a špecialistov na bezpečnosť s dlhoročnou praxou.</p>
+        <ul class="about__list">
+          <li>
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e63229"/><path d="M8 12l3 3 5-5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Licencovaná SBS podľa zákona
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e63229"/><path d="M8 12l3 3 5-5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Ozbrojená aj neozbrojená stráž
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e63229"/><path d="M8 12l3 3 5-5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Prísne preverený personál
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e63229"/><path d="M8 12l3 3 5-5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Celoslovenská pôsobnosť
+          </li>
+        </ul>
+      </div>
+      <div class="about__visual">
+        <div class="about__shield-wrap">
+          <svg viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M60 4L8 28v44c0 30 22 58 52 66 30-8 52-36 52-66V28L60 4Z" fill="#1a1a1a" stroke="#e63229" stroke-width="2"/>
+            <path d="M60 4L8 28v44c0 30 22 58 52 66 30-8 52-36 52-66V28L60 4Z" fill="url(#sg)" opacity="0.15"/>
+            <path d="M42 70l12 12 24-24" stroke="#e63229" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="sg" x1="60" y1="4" x2="60" y2="138" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#e63229"/>
+                <stop offset="1" stop-color="#e63229" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="about__badge">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L3 6v6c0 5.25 3.75 10.15 9 11.35C17.25 22.15 21 17.25 21 12V6L12 2Z" fill="#e63229"/></svg>
+            <div>
+              <strong>Certifikovaní</strong>
+              <span>Profesionáli</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLUŽBY -->
+  <section class="services" id="sluzby">
+    <div class="container">
+      <div class="section-header">
+        <h2>NAŠE <span class="red">SLUŽBY</span></h2>
+        <p>Poskytujeme komplexné bezpečnostné riešenia prispôsobené individuálnym potrebám každého klienta.</p>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="#e63229" stroke-width="1.8"/><path d="M3 9h18M9 21V9" stroke="#e63229" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Fyzická ochrana objektov</h3>
+          <p>Profesionálna ochrana majetku a budov s dôrazom na prevenciu a okamžitý zásah.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#e63229" stroke-width="1.8"/><path d="M12 7v5l3 3" stroke="#e63229" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Pult centralizovanej ochrany</h3>
+          <p>Non-stop monitorovanie objektov 24/7 s okamžitým výjazdom zásahovej jednotky.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="#e63229" stroke-width="1.8"/><path d="M4 20c0-4 3.58-7 8-7s8 3 8 7" stroke="#e63229" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Ochrana osôb – Bodyguard</h3>
+          <p>Diskrétna a vysoko profesionálna osobná ochrana pre VIP klientov a manažérov.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M17 21H7a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v14a2 2 0 01-2 2Z" stroke="#e63229" stroke-width="1.8"/><path d="M9 7h6M9 11h6M9 15h4" stroke="#e63229" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Zabezpečenie podujatí</h3>
+          <p>Komplexná bezpečnosť pre kultúrne, športové a firemné eventy všetkých veľkostí.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L3 6v6c0 5.25 3.75 10.15 9 11.35C17.25 22.15 21 17.25 21 12V6L12 2Z" stroke="#e63229" stroke-width="1.8"/></svg>
+          </div>
+          <h3>Zabezpečovacie systémy</h3>
+          <p>Návrh, inštalácia a správa moderných kamerových a alarmových systémov (CCTV).</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="14" rx="2" stroke="#e63229" stroke-width="1.8"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" stroke="#e63229" stroke-width="1.8"/><path d="M12 12v3" stroke="#e63229" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Ochrana počas prepravy</h3>
+          <p>Bezpečný transport cenín, hotovosti a dôležitých dokumentov po celom Slovensku.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALÉRIA -->
+  <section class="gallery" id="galeria">
+    <div class="container">
+      <div class="section-header">
+        <h2>NAŠA <span class="red">GALÉRIA</span></h2>
+        <p>Ukážky z nášho nasadenia v teréne. Profesionálny prístup a maximálne nasadenie v každej situácii.</p>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item">
+          <img src="https://images.unsplash.com/photo-1566023397765-6aaeecd5e97a?w=600&q=80" alt="Bezpečnosť na podujatí" />
+          <div class="gallery__overlay"><span>Zabezpečenie podujatí</span></div>
+        </div>
+        <div class="gallery__item gallery__item--tall">
+          <img src="https://images.unsplash.com/photo-1580508174046-170816f65662?w=600&q=80" alt="Osobná ochrana" />
+          <div class="gallery__overlay"><span>Osobná ochrana</span></div>
+        </div>
+        <div class="gallery__item">
+          <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?w=600&q=80" alt="Ochrana objektov" />
+          <div class="gallery__overlay"><span>Ochrana objektov</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HODNOTY -->
+  <section class="values">
+    <div class="container values__grid">
+
+      <div class="value-card">
+        <div class="value-card__line"></div>
+        <div class="value-card__icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l2.09 6.26L20 9.27l-5 4.87 1.18 6.88L12 17.77l-4.18 3.25L9 14.14 4 9.27l5.91-.01L12 2Z" stroke="#e63229" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>PROFESIONALITA</h3>
+        <p>Náš tím tvoria výhradne licencovaní, školení a certifikovaní profesionáli s čistým registrom.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-card__line"></div>
+        <div class="value-card__icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M20 7l-8 5-8-5" stroke="#e63229" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="2" y="4" width="20" height="16" rx="2" stroke="#e63229" stroke-width="1.8"/></svg>
+        </div>
+        <h3>FLEXIBILITA</h3>
+        <p>Riešenia šité na mieru presne podľa špecifických požiadaviek a rizík vášho podnikania.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-card__line"></div>
+        <div class="value-card__icon">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#e63229" stroke-width="1.8"/><path d="M12 6v6l4 2" stroke="#e63229" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </div>
+        <h3>NON-STOP REAKCIA</h3>
+        <p>Sme v pohotovosti 24 hodín denne, 7 dní v týždni. Pripravení okamžite zasiahnuť.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- REFERENCIE -->
+  <section class="testimonials" id="referencie">
+    <div class="container">
+      <div class="section-header">
+        <h2>ČO O NÁS HOVORIA <span class="red">KLIENTI</span></h2>
+        <div class="section-header__line"></div>
+      </div>
+      <div class="testimonials__grid">
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-card__quote">"</div>
+          <p>"Od kedy využívame služby tejto SBS, incidenty v našom nákupnom centre klesli o 80%. Ich prístup je vysoko profesionálny."</p>
+          <div class="testimonial-card__author">
+            <strong>Martin Kováč</strong>
+            <span>Manažér nákupného centra</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-card__quote">"</div>
+          <p>"Zabezpečovali náš medzinárodný festival s 10 000 účastníkmi. Všetko prebehlo hladko a bez jediného problému. Odporúčam."</p>
+          <div class="testimonial-card__author">
+            <strong>Jana Nováková</strong>
+            <span>Event Manager</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-card__quote">"</div>
+          <p>"Rýchlosť výjazdu ich zásahovej jednotky pri narušení nášho skladu bola neuveriteľná. Zachránili nám tovar v obrovskej hodnote."</p>
+          <div class="testimonial-card__author">
+            <strong>Peter Štefan</strong>
+            <span>Logistická spoločnosť</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <div class="testimonial-card__quote">"</div>
+          <p>"Osobná ochrana na najvyššej úrovni. Diskrétnosť a profesionalita, na ktorú sa môžem stopercentne spoľahnúť."</p>
+          <div class="testimonial-card__author">
+            <strong>Michal D.</strong>
+            <span>Súkromná osoba</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="contact" id="kontakt">
+    <div class="container contact__inner">
+      <div class="contact__info">
+        <h2>KONTAKTUJTE <span class="red">NÁS</span></h2>
+        <div class="contact__info__line"></div>
+        <p>Potrebujete zabezpečiť objekt, podujatie alebo osobnú ochranu? Sme tu pre vás 24/7. Ozvite sa nám pre nezáväznú konzultáciu.</p>
+
+        <div class="contact__details">
+          <div class="contact__detail">
+            <div class="contact__detail__icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2Z" fill="#e63229"/></svg>
+            </div>
+            <div>
+              <span>TELEFÓN (NON-STOP)</span>
+              <strong>+421 900 000 000</strong>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail__icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2Z" fill="#e63229"/><path d="M22 6l-10 7L2 6" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div>
+              <span>EMAIL</span>
+              <strong>info@sbs.sk</strong>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <div class="contact__detail__icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7Z" fill="#e63229"/><circle cx="12" cy="9" r="2.5" fill="#fff"/></svg>
+            </div>
+            <div>
+              <span>CENTRÁLA</span>
+              <strong>Bezpečnostná ul. 15<br />821 04 Bratislava</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__form-wrap">
+        <h3>Napíšte nám</h3>
+        <form class="contact__form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Meno a priezvisko / Spoločnosť</label>
+            <input type="text" id="name" name="name" placeholder="Ján Novák" required />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="jan@firma.sk" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefón</label>
+              <input type="tel" id="phone" name="phone" placeholder="+421 9XX XXX XXX" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Vaša správa</label>
+            <textarea id="message" name="message" rows="5" placeholder="Ako vám môžeme pomôcť?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--red btn--full">ODOSLAŤ SPRÁVU</button>
+          <p class="form__success" id="formSuccess">Správa bola odoslaná. Ozveme sa vám čo najskôr.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#uvod" class="nav__logo">
+          <svg class="nav__shield" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2L3 6v6c0 5.25 3.75 10.15 9 11.35C17.25 22.15 21 17.25 21 12V6L12 2Z" fill="#e63229" />
+            <path d="M9 12l2 2 4-4" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>SBS</span>
+        </a>
+        <p>Profesionálna súkromná bezpečnostná služba poskytujúca komplexné riešenia pre ochranu majetku, osôb a podujatí na najvyššej úrovni.</p>
+        <div class="footer__legal">
+          <span>IČO: 12345678</span>
+          <span>DIČ: 2020123456</span>
+          <span>Licencia na prevádzkovanie SBS č. PT-000000</span>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>RÝCHLE ODKAZY</h4>
+        <ul>
+          <li><a href="#uvod">Úvod</a></li>
+          <li><a href="#onas">O nás</a></li>
+          <li><a href="#sluzby">Služby</a></li>
+          <li><a href="#galeria">Galéria</a></li>
+          <li><a href="#referencie">Referencie</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>SLUŽBY</h4>
+        <ul>
+          <li><a href="#sluzby">Fyzická ochrana</a></li>
+          <li><a href="#sluzby">Pult ochrany (PCO)</a></li>
+          <li><a href="#sluzby">Osobná ochrana</a></li>
+          <li><a href="#sluzby">Kamerové systémy</a></li>
+          <li><a href="#sluzby">Zabezpečenie podujatí</a></li>
+          <li><a href="#sluzby">Ochrana prepravy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom__inner">
+        <span>© 2026 SBS s.r.o. Všetky práva vyhradené.</span>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
