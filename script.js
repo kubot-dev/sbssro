@@ -33,6 +33,20 @@ window.addEventListener('scroll', () => {
   nav.style.boxShadow = window.scrollY > 20 ? '0 2px 30px rgba(0,0,0,0.8)' : 'none';
 }, { passive: true });
 
+// License lightbox
+const lightbox        = document.getElementById('lightbox');
+const licenseThumb    = document.getElementById('licenseThumb');
+const lightboxClose   = document.getElementById('lightboxClose');
+const lightboxBackdrop = document.getElementById('lightboxBackdrop');
+
+function openLightbox()  { lightbox.classList.add('open');    document.body.style.overflow = 'hidden'; }
+function closeLightbox() { lightbox.classList.remove('open'); document.body.style.overflow = ''; }
+
+licenseThumb?.addEventListener('click', openLightbox);
+lightboxClose?.addEventListener('click', closeLightbox);
+lightboxBackdrop?.addEventListener('click', closeLightbox);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
 // Contact form
 document.getElementById('contactForm').addEventListener('submit', (e) => {
   e.preventDefault();

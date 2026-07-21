@@ -16,6 +16,9 @@
     <!-- NAVIGATION -->
     <header class="nav" id="nav">
       <div class="container nav__inner">
+        <a href="#domov" class="nav__logo">
+          <img src="images/logo.jpg" alt="SBS s.r.o." />
+        </a>
         <nav class="nav__links" id="navLinks">
           <a href="#domov" class="active">DOMOV</a>
           <a href="#sluzby">SLUŽBY</a>
@@ -23,7 +26,7 @@
           <a href="#onas">O NÁS</a>
           <a href="#kontakt">KONTAKT</a>
         </nav>
-        <a href="tel:+421904125552" class="nav__phone">
+        <a href="tel:+421904627671" class="nav__phone">
           <svg viewBox="0 0 24 24" fill="currentColor">
             <path
               d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2Z"
@@ -46,11 +49,11 @@
       <div class="container hero__inner">
         <div class="hero__content">
           <h1><span class="white">SBS</span> s.r.o.</h1>
-          <p class="hero__sub">Profesionálne bezpečnostné služby</p>
-          <p class="hero__desc">Komplesná ochrana objektov, osôb a majetku.</p>
+          <p class="hero__sub">Bezpečnosť postavená na reálnych skúsenostiach</p>
+          <p class="hero__desc">Komplexné bezpečnostné služby - ochrana objektov, osôb, podujatí, kamerové systémy.</p>
           <div class="hero__actions">
             <a href="#kontakt" class="btn btn--red">ZÍSKAŤ CENOVÚ PONUKU</a>
-            <a href="tel:+421904125552" class="btn btn--ghost">
+            <a href="tel:+421904627671" class="btn btn--ghost">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path
                   d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2Z"
@@ -118,6 +121,11 @@
           <div class="section-title__line"></div>
         </div>
 
+        <div class="services__lead">
+          <p class="services__lead-tag">Líder bezpečnostných služieb v SR</p>
+          <p class="services__lead-text">Poskytujeme komplexné bezpečnostné riešenia pre súkromné osoby, firmy aj štátne organizácie. Naše portfólio pokrýva fyzickú ochranu objektov a osôb, osobnú ochranu, sprevádzanie prevozov hotovosti a cenností, inštaláciu kamerových systémov aj nonstop PCO dohľad - všetko pod jednou strechou, na profesionálnej úrovni.</p>
+        </div>
+
         <div class="services__grid">
           <div class="service-card">
             <div class="service-card__icon">
@@ -168,7 +176,10 @@
             </ul>
           </div>
 
-          <div class="service-card">
+          <div class="service-card service-card--has-image">
+            <div class="service-card__image">
+              <img src="images/rental.jpg" alt="Prenájom kamerových systémov" />
+            </div>
             <div class="service-card__icon">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path
@@ -251,7 +262,7 @@
 
         <div class="tech__image">
           <img
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80"
+            src="images/drone.png"
             alt="Bezpečnostná technika"
           />
           <div class="tech__image__overlay"></div>
@@ -259,55 +270,87 @@
       </div>
     </section>
 
-    <!-- REFERENCIE -->
+    <!-- REFERENCIE / KLIENTI -->
     <section class="references" id="referencie">
       <div class="container">
         <div class="section-title">
           <div class="section-title__line"></div>
-          <h2>Naše Referencie</h2>
+          <h2>Naši spokojní klienti</h2>
           <div class="section-title__line"></div>
         </div>
 
-        <div class="references__grid">
-          <div class="reference-card">
-            <img
-              src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=80"
-              alt="Veľké Podujatia"
-            />
-            <div class="reference-card__overlay">
-              <span>Veľké Podujatia</span>
+        <div class="marquee">
+          <div class="marquee__track">
+            <!-- original set -->
+            <div class="marquee__item">
+              <img src="images/testimonials/artinvest.jpg" alt="Artinvest" />
+              <span>Artinvest</span>
             </div>
-          </div>
-          <div class="reference-card">
-            <img
-              src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80"
-              alt="Administratívne Objekty"
-            />
-            <div class="reference-card__overlay">
-              <span>Administratívne Objekty</span>
+            <div class="marquee__item">
+              <img src="images/testimonials/drudop.jpeg" alt="Drudop" />
+              <span>Drudop</span>
             </div>
-          </div>
-          <div class="reference-card">
-            <img
-              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80"
-              alt="Stavebné Projekty"
-            />
-            <div class="reference-card__overlay">
-              <span>Stavebné Projekty</span>
+            <div class="marquee__item">
+              <img src="images/testimonials/festival-letectva.jpg" alt="Festival letectva" />
+              <span>Festival letectva</span>
             </div>
-          </div>
-          <div class="reference-card">
-            <img
-              src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=80"
-              alt="Vysoká Bezpečnosť"
-            />
-            <div class="reference-card__overlay">
-              <span>Vysoká Bezpečnosť</span>
+            <div class="marquee__item">
+              <img src="images/testimonials/hochstaffl.jpeg" alt="Hochstaffl" />
+              <span>Hochstaffl</span>
+            </div>
+            <div class="marquee__item">
+              <img src="images/testimonials/hollex.png" alt="Hollex" />
+              <span>Hollex</span>
+            </div>
+            <div class="marquee__item">
+              <img src="images/testimonials/kajot.jpeg" alt="Kajot" />
+              <span>Kajot</span>
+            </div>
+            <div class="marquee__item">
+              <img src="images/testimonials/odutrade.jpeg" alt="Odutrade" />
+              <span>Odutrade</span>
+            </div>
+            <div class="marquee__item">
+              <img src="images/testimonials/skeleton.webp" alt="Skeleton" />
+              <span>Skeleton</span>
+            </div>
+            <!-- duplicated set for seamless loop -->
+            <div class="marquee__item" aria-hidden="true">
+              <img src="images/testimonials/artinvest.jpg" alt="" />
+              <span>Artinvest</span>
+            </div>
+            <div class="marquee__item" aria-hidden="true">
+              <img src="images/testimonials/drudop.jpeg" alt="" />
+              <span>Drudop</span>
+            </div>
+            <div class="marquee__item" aria-hidden="true">
+              <img src="images/testimonials/festival-letectva.jpg" alt="" />
+              <span>Festival letectva</span>
+            </div>
+            <div class="marquee__item" aria-hidden="true">
+              <img src="images/testimonials/hochstaffl.jpeg" alt="" />
+              <span>Hochstaffl</span>
+            </div>
+            <div class="marquee__item" aria-hidden="true">
+              <img src="images/testimonials/hollex.png" alt="" />
+              <span>Hollex</span>
+            </div>
+            <div class="marquee__item" aria-hidden="true">
+              <img src="images/testimonials/kajot.jpeg" alt="" />
+              <span>Kajot</span>
+            </div>
+            <div class="marquee__item" aria-hidden="true">
+              <img src="images/testimonials/odutrade.jpeg" alt="" />
+              <span>Odutrade</span>
+            </div>
+            <div class="marquee__item" aria-hidden="true">
+              <img src="images/testimonials/skeleton.webp" alt="" />
+              <span>Skeleton</span>
             </div>
           </div>
         </div>
 
-        <p class="references__note">Z dôvodu ohrany klientov neuvádzame konkrétne lokality.</p>
+        <p class="references__note">Z dôvodu ochrany klientov neuvádzame konkrétne lokality.</p>
       </div>
     </section>
 
@@ -327,44 +370,64 @@
             <h2>O <span class="red">nás</span></h2>
             <div class="section-title__line section-title__line--short"></div>
           </div>
-          <p>
-            SBS s.r.o. je licencovaná súkromná bezpečnostná služba s celoslovenskou pôsobnosťou.
-            Poskytujeme komplexné bezpečnostné riešenia pre fyzické osoby, firmy, stavby aj verejné
-            podujatia.
-          </p>
-          <p>
-            Náš tím tvoria odborníci s dlhoročnou praxou, bývalí príslušníci ozbrojených zborov a
-            certifikovaní bezpečnostní špecialisti. Každý člen tímu prechádza prísnym výberovým
-            konaním a pravidelným výcvikom.
-          </p>
-          <ul class="about__list">
-            <li><span class="about__bullet"></span>Licencovaná SBS podľa platnej legislatívy SR</li>
-            <li><span class="about__bullet"></span>Ozbrojená aj neozbrojená ochrana</li>
-            <li><span class="about__bullet"></span>Prísne preverený personál</li>
-            <li><span class="about__bullet"></span>Celoslovenská pôsobnosť</li>
-            <li><span class="about__bullet"></span>Moderné bezpečnostné technológie</li>
-          </ul>
+
+          <div class="about__block">
+            <h4 class="about__block-title">Skúsenosti za nami, nie pred nami</h4>
+            <p>Hoci môže SBS s.r.o. pôsobiť ako mladá spoločnosť, je výsledkom spojenia skúseností viacerých bezpečnostných agentúr a odborníkov z praxe. Zakladatelia a členovia tímu pôsobili v aktívnych bezpečnostných zložkách štátu aj v zahraničných agentúrach – tieto skúsenosti z reálneho výkonu služby dnes prenášame priamo do našich riešení.</p>
+          </div>
+
+          <div class="about__block">
+            <h4 class="about__block-title">Medzinárodné zázemie</h4>
+            <p>Skúsenosti nášho tímu zahŕňajú aj medzinárodné prostredie, vrátane pôsobenia v organizácii <span class="red">IBSSA</span> (International Bodyguard and Security Services Association). Jeden zo spoločníkov je zároveň zakladajúcim členom <span class="red">KSBS</span> – Komory súkromných bezpečnostných služieb.</p>
+          </div>
+
+          <div class="about__block">
+            <h4 class="about__block-title">Čo robíme</h4>
+            <p>Naši pracovníci sa podieľali na zabezpečení rôznych objektov a podujatí – od administratívnych budov až po verejné akcie a festivaly. Poskytujeme ochranu objektov a osôb, zabezpečenie podujatí, kamerové systémy a PCO dohľad, s dôrazom na spoľahlivosť, rýchlu reakciu a profesionálny prístup.</p>
+          </div>
         </div>
-        <div class="about__stats">
-          <div class="about__stat">
-            <span class="about__stat-num">15<span class="red">+</span></span>
-            <span class="about__stat-label">Rokov na trhu</span>
+
+        <div class="about__credentials">
+          <!-- KSBS + IBSSA logá -->
+          <div class="cred-logos">
+            <div class="cred-logo">
+              <img class="cred-logo__img" src="images/ksbs.jpg" alt="KSBS" />
+              <div class="cred-logo__text">
+                <span class="cred-logo__name">KSBS</span>
+                <span class="cred-logo__desc">Komora súkromných<br>bezpečnostných služieb</span>
+              </div>
+            </div>
+            <div class="cred-logo">
+              <img class="cred-logo__img" src="images/ibssa.png" alt="IBSSA" />
+              <div class="cred-logo__text">
+                <span class="cred-logo__name">IBSSA</span>
+                <span class="cred-logo__desc">International Bodyguard<br>and Security Services Assoc.</span>
+              </div>
+            </div>
           </div>
-          <div class="about__stat">
-            <span class="about__stat-num">500<span class="red">+</span></span>
-            <span class="about__stat-label">Chránených objektov</span>
-          </div>
-          <div class="about__stat">
-            <span class="about__stat-num">24<span class="red">/</span>7</span>
-            <span class="about__stat-label">Dostupnosť</span>
-          </div>
-          <div class="about__stat">
-            <span class="about__stat-num">100<span class="red">%</span></span>
-            <span class="about__stat-label">Spokojnosť klientov</span>
-          </div>
+
+          <!-- Licencia – kliknutím sa otvorí lightbox -->
+          <button class="cred-license" id="licenseThumb" aria-label="Zobraziť licenciu">
+            <img src="images/license.jpg" alt="Licencia SBS s.r.o." />
+            <div class="cred-license__label">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2Zm-7 3c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2Zm4 12H8v-1c0-2.67 2.67-4 4-4s4 1.33 4 4v1Z"/></svg>
+              Zobraziť licenciu
+            </div>
+          </button>
         </div>
       </div>
     </section>
+
+    <!-- LIGHTBOX – licencia -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Licencia SBS">
+      <div class="lightbox__backdrop" id="lightboxBackdrop"></div>
+      <div class="lightbox__content">
+        <img src="images/license.jpg" alt="Licencia SBS s.r.o." />
+        <button class="lightbox__close" id="lightboxClose" aria-label="Zavrieť">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </div>
+    </div>
 
     <!-- KONTAKT -->
     <section class="contact" id="kontakt">
@@ -376,7 +439,7 @@
           </div>
           <p>Potrebujete zabezpečiť objekt, podujatie alebo osobnú ochranu? Sme tu pre vás 24/7.</p>
           <div class="contact__details">
-            <a href="tel:+421904125552" class="contact__detail">
+            <a href="tel:+421904627671" class="contact__detail">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path
                   d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2Z"
@@ -384,20 +447,20 @@
               </svg>
               +421 904 627 671
             </a>
-            <a href="mailto:info@sbssro.eu" class="contact__detail">
+            <a href="mailto:sbssro@sbssro.eu" class="contact__detail">
               <svg viewBox="0 0 24 24" fill="currentColor">
                 <path
                   d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"
                 />
               </svg>
-              info@sbssro.eu
+              sbssro@sbssro.eu
             </a>
           </div>
           <div class="section-title">
-            <h2 href="tel:+421904125552" class="contact__detail">SBS. s. r. o.</h2>
+            <h2 href="tel:+421904627671" class="contact__detail">SBS. s. r. o.</h2>
             <div class="contact__details">
               <p>
-                Račianska 88 B 831 02 Bratislava – mestská časť Nové Mesto IČO: 54099854 DIČ:
+                Bajkalska 719/31 821 05 Bratislava <br>IČO: 54099854 <br>DIČ:
                 2121569472
               </p>
             </div>
@@ -434,12 +497,12 @@
       <div class="footer__contact">
         <a href="tel:+421904627671" class="footer__link">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2Z"/></svg>
-          0904 125 552
+          +421 904 627 671
         </a>
         <div class="footer__divider"></div>
-        <a href="mailto:info@sbssro.sk" class="footer__link">
+        <a href="mailto:sbssro@sbssro.eu" class="footer__link">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/></svg>
-          info@sbs sro.sk
+          sbssro@sbssro.eu
         </a>
       </div>
     </div> -->
